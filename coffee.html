@@ -16,6 +16,12 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
@@ -23,10 +29,10 @@
     <nav class="menubar">
       <div class="logo">CLUB COFFEE</div>
       <ul class="menu">
-        <li class="menu_item">home</li>
-        <li class="menu_item">what we offer</li>
-        <li class="menu_item">store</li>
-        <li class="menu_item">more</li>
+        <a href="#"><li class="menu_item">home</li></a>
+        <a href="#section1"><li class="menu_item">what we offer</li></a>
+        <a href="#section2"><li class="menu_item">About</li></a>
+        <a href="#"><li class="menu_item">more</li></a> 
       </ul>
     </nav>
     <!--Navbar ends-->
@@ -47,7 +53,7 @@
     <!--Header ends-->
 
     <!--what we offer section starts-->
-    <div class="product">
+    <div class="product"id="section1">
       <div class="base_content">
         <h1>coffee build your base</h1>
         <div class="product-container row justify-content-center">
@@ -87,7 +93,7 @@
     <!--what we offer section end-->
 
     <!--best coffee section starts-->
-    <div class="about">
+    <div class="about"id="section2">
       <div class="about-content">
         <h1>best coffee</h1>
         <p>
@@ -98,10 +104,36 @@
         </p>
         <button class="btn1">LERN MORE</button>
       </div>
-      <div class="content-img">
+      <div class="content-img"></div>
+    </div>
+    <!--best coffee section end-->
+    <!--best coffee section footer-->
+    <div class="footer">
+      <div class="row footer-content justify-content-center">
+        <div class="footer-content-item col-3">
+          <h3>contact</h3>
+          <div class="contact-content">
+            <p><i class="far fa-address-card"></i>+91 8157016728</p>
+            <p><i class="far fa-envelope"></i>help@coffeeshop.com</p>
+            <p><i class="fab fa-whatsapp"></i>7736117002</p>
+          </div>
+        </div>
+        <div class="footer-content-item col-3">
+          <h3>about us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos laborum eius necessitatibus itaque accusamus. Nostrum perspiciatis est fugiat, quaerat, tenetur magnam odio illo nesciunt voluptatum nobis veniam, repellendus voluptates magni?</p>
+        </div>
+      
+        <div class="footer-content-item col-3 ml-5">
+          <h3>follow us</h3>
+          <div>
+            <i class="fab fa-instagram"></i>   
+            <i class="fab fa-twitter"></i>     
+          </div>
         
+        </div>
       </div>
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
